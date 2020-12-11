@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    android:orientation="vertical"
+    tools:context=".EditFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Edito profilin"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+            >
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Emri"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/idEmriRegjistrohuEdit"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_round"
+                android:hint="Emri"
+                android:paddingLeft="20dp"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Mbiemri"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/idMbiemriRegjistrohuEdit"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_round"
+                android:paddingLeft="20dp"
+                android:hint="Mbiemri"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Emaili"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/idEmailRegjistrohuEdit"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_round"
+                android:paddingLeft="20dp"
+                android:hint="Emaili"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Numri Leternjoftimit"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+            <EditText
+                android:id="@+id/idNumriLeternjoftimitEdit"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_round"
+                android:paddingLeft="20dp"
+                android:editable="false"
+                android:hint="Numri leternjoftimit"
+                android:fontFamily="@font/poppins_regular"
+                android:inputType="number"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Adresa"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/idAdresaRegjistrohuEdit"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_round"
+                android:paddingLeft="20dp"
+                android:hint="Adresa"
+                android:inputType="textLongMessage"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Vendi"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/idAVendiRegjistrohuEdit"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_round"
+                android:paddingLeft="20dp"
+                android:hint="Vendi"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="15sp" />
+
+
+
+            <Spinner
+                android:id="@+id/idKomunaRegjistrohuEdit"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="@font/poppins_regular"
+                android:hint="Komuna"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/idEditoEdit"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_round"
+                android:text="Edito"
+                android:textColor="@color/colorWhite" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/idNdryshoFjalkalimin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="center"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="Ndrysho fjalkalimin"
+                    android:textColor="@color/colorBlue"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

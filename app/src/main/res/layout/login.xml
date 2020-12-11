@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="397dp"
+                android:layout_height="236dp"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/logoz" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:paddingTop="3dp"
+                android:text="Kycu"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+            >
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/idEmailiHyni"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit_round"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="10dp"
+                android:hint="Emaili"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="15dp"
+                android:shadowColor="@color/colorWhite"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/idFjalkalimiHyni"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit_round"
+                android:drawableLeft="@drawable/key_variant"
+                android:drawablePadding="10dp"
+                android:hint="Fjalkalimi"
+                android:inputType="textPassword"
+                android:fontFamily="@font/poppins_regular"
+                android:paddingLeft="15dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp" />
+
+            android:text="Hyni"
+
+            <Button
+                android:id="@+id/idBtnHyni"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_round"
+                android:text="Hyni"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:text="Keni harruar fjalëkalimin tuaj?"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/idKrijoLlogariHyni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="Krijo nje llogari"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBlue"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

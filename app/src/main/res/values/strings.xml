@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Zgjedhjet</string>
+    <string name="search_elements">
+        <item>Kerko...</item>
+    </string>
+
+    <string name="goals">
+        <item>Test 1</item>
+    </string>
+    <string-array name="komuna_array">
+        <item>Albanik</item>
+        <item>Artanë</item>
+        <item>Burim</item>
+        <item>Dardanë</item>
+        <item>Deçan</item>
+        <item>Drenas</item>
+        <item>Ferizaj</item>
+        <item>Fushë Kosovë</item>
+        <item>Gjakovë</item>
+        <item>Gjilan</item>
+        <item>Kastriot</item>
+        <item>Kaçanik</item>
+        <item>Klinë</item>
+        <item>Lipjan</item>
+        <item>Malishevë</item>
+        <item>Mitrovicë</item>
+        <item>Pejë</item>
+        <item>Podujevë</item>
+        <item>Prishtinë</item>
+        <item>Prizren</item>
+        <item>Rahovec</item>
+        <item>Sharr</item>
+        <item>Shtime</item>
+        <item>Shtërpcë</item>
+        <item>Skënderaj</item>
+        <item>Therandë</item>
+        <item>Viti</item>
+        <item>Vushtrri</item>
+        <item>Zubin Potok</item>
+        <item>Zveçan</item>
+    </string-array>
+
+    <string-array name="partia_array">
+        <item>Partia x</item>
+        <item>Partia 1</item>
+        <item>Partia 2</item>
+        <item>Partia 3</item>
+        <item>Partia 4</item>
+        <item>Partia 5</item>
+    </string-array>
+
+    <string-array name="kandidati_array">
+        <item>Kandidati x</item>
+        <item>Kandidati 1</item>
+        <item>Kandidati 2</item>
+        <item>Kandidati 3</item>
+        <item>Kandidati 4</item>
+        <item>Kandidati 5</item>
+        <item>Kandidati 6</item>
+        <item>Kandidati 7</item>
+        <item>Kandidati 8</item>
+        <item>Kandidati 9</item>
+        <item>Kandidati 10</item>
+    </string-array>
+
+    <style name="TextBlackTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextDescription">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextButton">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextName">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+</resources>

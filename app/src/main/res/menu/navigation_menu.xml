@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:id="@+id/idKryefaqjaMenu"
+    android:icon="@drawable/menu"
+    android:title="Kryefqja" />
+
+    <item
+        android:id="@+id/idZgjedhjetMenu"
+        android:icon="@drawable/menu_election"
+        android:title="Zgjedhjet"/>
+
+    <item
+        android:id="@+id/idNjoftimetaMenu"
+        android:icon="@drawable/notification"
+        android:title="Njoftimet"/>
+
+    <item
+        android:id="@+id/idLlogariaMenu"
+        android:icon="@drawable/user"
+        android:title="Llogaria"/>
+</menu>
